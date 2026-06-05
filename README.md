@@ -1,2 +1,3 @@
-# PRUEBA-PRÁCTICA
-Este es mi repositorio de prueba
+# PRUEBA-PRACTICA
+
+Sistema de ventas e inventario por consola.
