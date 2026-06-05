@@ -1,29 +1,9 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- * RAMA: espagueti
- *
- * Patrón: Código Espagueti
- *
- * Todo el sistema vive en un único método main.
- * No existe separación de responsabilidades: los datos,
- * la lógica de negocio y la interfaz de usuario están mezclados.
- *
- * Esto dificulta el mantenimiento y la escalabilidad del sistema.
- * Esta rama existe para ilustrar el problema que resuelven
- * las arquitecturas por capas y DDD.
- */
 public class SistemaVentas {
 
     public static void main(String[] args) {
-
-        // ---------------------------------------------------------
-        // ALMACÉN DE DATOS EN MEMORIA
-        // Usamos listas paralelas: el índice 0 de productoIds
-        // corresponde al índice 0 de productoNombres, etc.
-        // En una arquitectura real esto sería una base de datos.
-        // ---------------------------------------------------------
 
         // Catálogo de productos
         ArrayList<Integer> productoIds     = new ArrayList<>();
